@@ -40,11 +40,12 @@ body {
 
 /* Dropdown button */
 .dropdown .drop-link {
-	margin: 0;
+	margin: .5;
 	font-family: inherit;
 	background-color: inherit;
 	outline: none;
 	border: none;
+    padding: 1em;
 }
 
 /* Dropdown Content */
