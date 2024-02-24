@@ -1,7 +1,26 @@
+@media only screen and (max-width: 1200px;) {}
+       
+
+
+html {
+    box-sizing: border-box;
+}
+
 /* Navbar container */
 body {
-	background-image: url("images/EmPrep.jpg");
+	background-image: url("images/BennionEPSmall.jpg");
 }
+
+.mainTitle {
+    text-align: center;
+    padding: 2em;
+    font-family: Mako, sans-serif;
+    font-size: 2em;
+    background-color: #f2f2f2;
+    color: #337745;
+    border-radius: 10px;
+}
+
 .navbar {
     overflow: hidden;
 	margin: 0;
