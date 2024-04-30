@@ -12,6 +12,7 @@ body {
 }
 
 .mainTitle {
+    z-index: -3;
     text-align: center;
     padding: 2em;
     font-family: Mako, sans-serif;
@@ -68,7 +69,8 @@ body {
 
 /* Dropdown Content */
 .dropdown-resources {
-	display: none;
+    z-index: 2;
+    display: none;
 	position: absolute;
 	box-shadow: 0px 8px 16px 0px rgb(0,0,0,0.2);
 	border-radius: 10px;
@@ -78,7 +80,7 @@ body {
 
 /* Dropdown Content links */
 .dropdown-resources a {
-	float: none;
+    float: none;
 	text-decoration: none;
 	display: block;
 	text-align: left;
@@ -87,11 +89,26 @@ body {
 }
 
 .dropdown-resources a:hover {
-
+    z-index: 2;
 }
 
 
 .dropdown:hover .dropdown-resources {
 	display: block;
 	
+}
+
+.video {
+    z-index: 1;
+    padding: .5em;
+    margin: .5em;
+    background-color: #D9D9D9;
+    box-shadow: 0px 8px 16px 0px rgb(0,0,0,0.2);
+    width: auto;
+    height: auto;
+    position: absolute;
+    margin: auto;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
