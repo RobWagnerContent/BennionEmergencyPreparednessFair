@@ -12,7 +12,7 @@ body {
 }
 
 .mainTitle {
-    z-index: -3;
+    z-index: 2;
     text-align: center;
     padding: 2em;
     font-family: Mako, sans-serif;
@@ -22,7 +22,12 @@ body {
     border-radius: 10px;
 }
 
+header {
+    z-index: 2;
+}
+
 .navbar {
+    z-index: 5;
     overflow: hidden;
 	margin: 0;
     background-color: #D9D9D9;
@@ -34,6 +39,7 @@ body {
 
 /* Links inside the navbar */
 .navbar a {
+    z-index: 2;
     float: left;
 	text-align: center;
 	color: #384BF8;
@@ -48,12 +54,14 @@ body {
 
 /* The dropdown container */
 .dropdown {
-	float: left;
+	z-index: 2;
+    float: left;
 	overflow: hidden;
 }
 
 .navbar a:hover {
-	color: #f2f2f2;
+	z-index: 2;
+    color: #f2f2f2;
 	background-color: #384BF8;
 	transition-duration: 100ms;
 	border-radius: 10px;
@@ -61,7 +69,8 @@ body {
 
 /* Dropdown button */
 .dropdown .drop-link {
-	font-family: inherit;
+	z-index: 2;
+    font-family: inherit;
 	background-color: inherit;
 	outline: none;
 	border: none;
@@ -80,6 +89,7 @@ body {
 
 /* Dropdown Content links */
 .dropdown-resources a {
+    z-index: 2;
     float: none;
 	text-decoration: none;
 	display: block;
@@ -94,7 +104,8 @@ body {
 
 
 .dropdown:hover .dropdown-resources {
-	display: block;
+	z-index: 2;
+    display: block;
 	
 }
 
@@ -108,7 +119,9 @@ body {
     height: auto;
     position: absolute;
     margin: auto;
-    top: 53%;
+    top: 48%;
     left: 50%;
     transform: translate(-50%, -50%);
+    max-height: 75%;
+    max-width: 75%;
 }
