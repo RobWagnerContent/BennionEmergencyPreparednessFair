@@ -11,11 +11,18 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.landing {
+    height: auto;
+    width: 100%;
+    margin: 10px 10px 10px 0;
+    border-radius: 10px;
+}
+
 .mobile-container {
-  max-width: 480px;
+  max-width: auto;
   margin: auto;
   background-color: #555;
-  height: 500px;
+  height: .5em;
   color: white;
   border-radius: 10px;
 }
@@ -96,6 +103,7 @@ header {
     list-style: none;
 	padding: 1em;
 	border-radius: 10px;
+    width: auto;
 }
 
 /* Links inside the navbar */
